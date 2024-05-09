@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Computer Science"
+    },
+    {
+        "id": 2,
+        "name": "Management of Information Sysyem"
+    },
+    {
+        "id": 3,
+        "name": "International Trade and Logistic"
+    },
+    {
+        "id": 4,
+        "name": "Banking and Finance"
+    },
+    {
+        "id": 5,
+        "name": "Business Administration"
+    },
+    {
+        "id": 6,
+        "name": "Civil Engineering"
+    },
+    {
+        "id": 7,
+        "name": "Industrial Engineering"
+    },
+    {
+        "id": 8,
+        "name": "International Relations"
+    },
+    {
+        "id": 9,
+        "name": "Architecture"
+    },
+    {
+        "id": 10,
+        "name": "Economics"
+    }
+]

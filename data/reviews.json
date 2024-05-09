@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "uni_id": 1,
+        "review": "Paragon International University is a very good university in Cambodia."
+    },
+    {
+        "id": 2,
+        "uni_id": 1,
+        "review": "I study at the university and it is good."
+    },
+    {
+        "id": 3,
+        "uni_id": 2,
+        "review": "It is good for people who want to study accounting."
+    },
+    {
+        "id": 4,
+        "uni_id": 2,
+        "review": "No parking space so sad."
+    },
+    {
+        "id": 5,
+        "uni_id": 3,
+        "review": "This school very big."
+    },
+    {
+        "id": 6,
+        "uni_id": 3,
+        "review": "Have a lot of majors."
+    },
+    {
+        "id": 7,
+        "uni_id": 4,
+        "review": "Very modern this school."
+    },
+    {
+        "id": 8,
+        "uni_id": 6,
+        "review": "The equipments at that university is so cool."
+    }
+]

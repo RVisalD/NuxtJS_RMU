@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "name": "Paragon International University",
+        "type": "Private",
+        "city": "Kampot",
+        "price": "4000",
+        "description": "Paragon International University (formerly known as Zaman University) was established in 2010, as a new member of Zaman educational institutions (now under Paragon Education Company). Zaman University was rebranded and was officially recognized as Paragon International University by a sub-decree of the Royal Government of Cambodia on 28 January 2019.",
+        "photo": "https://academics-bucket-sj19asxm-prod.s3.ap-southeast-1.amazonaws.com/47268da4-7c59-4aa1-9d5d-1f94a31756af/feature-image.jpg"
+
+    },
+    {
+        "id":2,
+        "name": "CamEd Business School",
+        "type": "Private",
+        "city": "Phnom Penh",
+        "price": "4000",
+        "description": "CamEd is an accredited institute of higher education based in Phnom Penh, the capital city of Cambodia. CamEd specializes in teaching accounting and finance and holds platinum quality recognition from the international, UK based Association of Chartered Certified Accountants (ACCA).",
+        "photo": "https://pppenglish.sgp1.digitaloceanspaces.com/image/main/field/image/camed-business-shcool.jpg"
+
+    },
+    {
+        "id":3,
+        "name": "Royal University of Phnom Penh",
+        "type": "Public",
+        "city": "Phnom Penh",
+        "price": "700",
+        "description": "The Royal University of Phnom Penh (RUPP), founded in 1960, has undergone a series of transformations to become the leading national university in Cambodia. Other transformations are still happening. In the last five years, for example, Rupp has made considerable progresses in many areas including organizational structure, institutional governance, capacity building, infrastructure development, research, teaching and learning, curriculum development, and quality assurance. These achievements have encouraged RUPP management and faculty to strive harder to implement the institutional reform and achieve development goals.",
+        "photo": "https://www.iftm.edu.mo/NewsPortal/wp-content/uploads/2019/04/RUPP-990x660.jpg"
+    },
+    {
+        "id":4,
+        "name": "Cambodia University of Technology and Science ",
+        "type": "Private",
+        "city": "Phnom Penh",
+        "price": "5000",
+        "description": "Cambodia University of Technology and Science (CamTech) is an upcoming world class higher education institution. CamTech’s core values are Integrity, Respect, Excellence, Innovation, Diversity which we call IREID. Our motto is Knowledge, Reason, Character and we proudly believe to be able to make a difference in the existing education environment in Cambodia.We work on our academic programs aiming to bring innovation and knowledge that will contribute to the economic and social progress for the existing and the future generations.",
+        "photo": "https://academics-bucket-sj19asxm-prod.s3.ap-southeast-1.amazonaws.com/c0455e1c-b56a-448f-ac79-89ce6acd3138/eb6b6f49-52f0-4f37-9f03-658883bdd87d.jpg"
+    }
+]
