@@ -1,5 +1,4 @@
 <script setup>
-import { errorMessages } from "vue/compiler-sfc";
 
 const user = useSupabaseUser();
 const supabase = useSupabaseClient();
