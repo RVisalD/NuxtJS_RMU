@@ -1,5 +1,5 @@
 export default async  (filters) => {
-    const {data, error, refresh} = await  useFetch(`http://127.0.0.1:8000/api/universities/filter`, {
+    const {data, error, refresh} = await  useFetch(`http://192.168.1.4:8000/api/universities/filter`, {
         params: {
             ...filters
         }
