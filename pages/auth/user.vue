@@ -57,7 +57,7 @@ const CreateUniversity = async () => {
     };
 
     // Send a POST request to the Laravel endpoint
-    const response = await fetch("http://127.0.0.1:8000/api/universities", {
+    const response = await fetch("https://frabjous-quokka-895857.netlify.app//api/universities", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -95,7 +95,7 @@ const CreateUniversity = async () => {
 
 const deleteReviewWithUniversity = async (id) => {
   try {
-    const response = await $fetch(`http://127.0.0.1:8000/api/universities/${id}`, {
+    const response = await $fetch(`https://frabjous-quokka-895857.netlify.app//api/universities/${id}`, {
       method: "DELETE",
     });
   } catch (error) {
@@ -106,7 +106,7 @@ const deleteReviewWithUniversity = async (id) => {
 const deleteUniversity = async (id) => {
   deleteReviewWithUniversity(id);
   try {
-    const response = await $fetch(`http://127.0.0.1:8000/api/reviews/${id}`, {
+    const response = await $fetch(`https://frabjous-quokka-895857.netlify.app//api/reviews/${id}`, {
       method: "DELETE",
     });
     window.location.reload();
