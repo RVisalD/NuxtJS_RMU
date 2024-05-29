@@ -8,7 +8,7 @@ const props = defineProps({
 
 const loading = ref(false);
 
-const { data: university } = useFetch("http://127.0.0.1:8000/api/universities/filter");
+const { data: university } = useFetch("https://visal.newlinkmarketing.com/api/universities/filter");
 const emits = defineEmits(["changeInput"]);
 
 const isButtonDisabled = computed(() => {

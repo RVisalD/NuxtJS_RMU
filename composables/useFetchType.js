@@ -1,5 +1,5 @@
 export default async (type) =>{
-    const {data, error} = await useFetch(`http://127.0.0.1:8000/api/universities/type/${type}`);
+    const {data, error} = await useFetch(`https://visal.newlinkmarketing.com/api/universities/type/${type}`);
     if(error.value){
         throw createError({
             ...error.value,
