@@ -1,23 +1,18 @@
 <script setup>
 import { ref } from "vue";
-import { useSupabaseClient, useSupabaseUser } from "@supabase/supabase-js";
 
-// Reactive references for input fields
-const email = ref("");
-const password = ref("");
 const showPassword = ref(false);
+const supaBase = useSupabaseClient();
 
-const supabase = useSupabaseClient();
 const user = useSupabaseUser();
 
-// Async function to handle Google login
-const loginWithGoogle = async () => {
-  const { error } = await supabase.auth.signInWithOAuth({
+const login = async () => {
+  const { error } = supaBase.auth.signInWithOAuth({
     provider: "google",
   });
 
   if (error) {
-    console.error("Error logging in with Google:", error.message);
+    console.error(error);
   }
 };
 </script>
@@ -26,7 +21,7 @@ const loginWithGoogle = async () => {
   <div>
     <div class="login mt-20 mb-28 border h-auto w-[400px] mx-auto shadow-md">
       <div class="p-4">
-        <h1 class="text-2xl mx-auto w-max">Login</h1>
+        <h1 class="text-2xl mx-auto w-max">Login </h1>
         <div class="mt-4">
           <label for="email" class="text-slate-500">Email</label>
           <br />
