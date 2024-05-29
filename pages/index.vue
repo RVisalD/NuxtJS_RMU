@@ -8,6 +8,7 @@ const { toTitleCase } = useUtilities();
 
 const route = useRoute();
 
+
 const { data: fetchUniversities, refresh } = await useFetchUniversities({
   minPrice: route.query.minPrice,
   maxPrice: route.query.maxPrice,
