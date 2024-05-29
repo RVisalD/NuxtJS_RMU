@@ -1,26 +1,29 @@
 <script setup>
-import { ref } from "vue";
-import { useSupabaseClient, useSupabaseUser } from "@supabase/supabase-js";
+import { ref } from 'vue';
+import { useRuntimeConfig } from '@nuxtjs/composition-api';
 
-// Reactive references for input fields
-const email = ref("");
-const password = ref("");
+const config = useRuntimeConfig();
+const email = ref('');
+const password = ref('');
 const showPassword = ref(false);
 
 const supabase = useSupabaseClient();
 const user = useSupabaseUser();
 
-// Async function to handle Google login
 const loginWithGoogle = async () => {
   const { error } = await supabase.auth.signInWithOAuth({
-    provider: "google",
+    provider: 'google',
+    options: {
+      redirectTo: window.location.origin, // This ensures the redirect URL is the current domain
+    }
   });
 
   if (error) {
-    console.error("Error logging in with Google:", error.message);
+    console.error('Error logging in with Google:', error.message);
   }
 };
 </script>
+
 <template>
   <div>
     <div class="login mt-20 mb-28 border h-auto w-[400px] mx-auto shadow-md">
