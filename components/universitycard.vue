@@ -16,7 +16,7 @@ const emit = defineEmits(['favor'])
     <div
       class="shadow border w-full overflow-hidden mb-5 cursor-pointer flex h-[200px]"
     >
-      <NuxtImg
+      <img
         :src="`${university.photo}`"
         class="w-1/3 h-full object-cover"
         @click="navigateTo(`/university/${university.name}-${university.id}`)"

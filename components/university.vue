@@ -47,7 +47,7 @@ const CreateReview = async () => {
 <template>
   <div>
     <div class="mt-10">
-      <NuxtImg :src="`${university.photo}`" class="w-full" />
+      <img :src="`${university.photo}`" class="w-full" />
       <!-- University Info -->
       <h1 class="text-4xl font-bold  mt-10">{{ university.name }}</h1>
       <div
